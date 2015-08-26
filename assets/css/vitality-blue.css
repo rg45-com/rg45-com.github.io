@@ -981,7 +981,7 @@ form .row:first-child .floating-label-form-group {
 }
 footer.footer {
   color: rgba(255, 255, 255, 0.7);
-  background: no-repeat center 400px scroll;
+  background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
