@@ -205,7 +205,6 @@ hr.colored {
 }
 .navbar-default .navbar-brand,
 .navbar-inverse .navbar-brand {
-  padding: 0 15px;
   color: white;
   opacity: 1;
   text-decoration: none;
@@ -391,7 +390,7 @@ aside.cta-quote {
 aside.cta-quote span.quote {
   display: block;
   font-size: 30px;
-  line-height: 32px;
+  line-height: 40px;
   font-weight: 300;
 }
 @media (min-width: 768px) {
@@ -401,7 +400,7 @@ aside.cta-quote span.quote {
   }
   aside.cta-quote span.quote {
     font-size: 36px;
-    line-height: 38px;
+    line-height: 48px;
   }
 }
 @media (min-width: 992px) {
@@ -410,7 +409,7 @@ aside.cta-quote span.quote {
   }
   aside.cta-quote span.quote {
     font-size: 40px;
-    line-height: 42px;
+    line-height: 50px;
   }
 }
 @media (min-width: 1025px) {
