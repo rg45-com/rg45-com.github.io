@@ -249,7 +249,7 @@ hr.colored {
   }
   .navbar-default.navbar-expanded,
   .navbar-inverse.navbar-expanded {
-    background: transparent;
+  /*  background: transparent; */
     border: none;
   }
 }
@@ -288,7 +288,7 @@ header .brand-name {
 }
 header .brand-name-subtext {
   font-size: 20px;
-  line-height: 20px;
+  line-height: 40px;
   font-weight: 300;
 }
 header img {
@@ -345,7 +345,7 @@ header .scroll-down .btn:hover {
   }
   header .brand-name-subtext {
     font-size: 30px;
-    line-height: 30px;
+    line-height: 40px;
   }
   header img {
     max-width: 300px;
