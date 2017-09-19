@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: default
 title: My new blog entry
 date: 2017-09-18T18:36:20.021Z
 thumbnail: /assets/img/Screen Shot 2017-09-18 at 11.40.32 AM.png
