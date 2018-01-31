@@ -13,15 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Computer Repair, Virus Removal, Website Development | RG45.com
+title: Computer Repair, Virus Removal, Website Development
 email: ryan@rg45.com
 description: > # this means to ignore newlines until "baseurl:"
   Front end website development with current HTML, CSS, JavaScript, Bootstrap and Mobile-First techniques.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.rg45.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.rg45.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 google_analytics: "UA-91450782-1"
+body_id: "page-top"
 
 # Build settings
 markdown: kramdown

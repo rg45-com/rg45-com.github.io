@@ -1,18 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: wrapper
+---
 
-{% include head.html %}
+{% include nav.html %}
+  
+{{ content }}
+  
+{% include footer.html %}
 
-<body id="page-top" class="modern">
-  {% include nav.html %}
-    
-  {{ content }}
-    
-  {% include footer.html %}
 
-  <!-- Core Scripts -->
-  <script src="/assets/js/jquery.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+<!-- Core Scripts -->
+<script src="/assets/js/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+{% if layout.plugin_js %}
   <!-- Plugin Scripts -->
   <script src="/assets/js/plugins/jquery.easing.min.js"></script>
   <script src="/assets/js/plugins/classie.js"></script>
@@ -25,9 +25,6 @@
   <script src="/assets/js/plugins/jquery.mixitup.js"></script>
   <script src="/assets/js/plugins/wow/wow.min.js"></script>
   <script src="/assets/js/plugins/jqBootstrapValidation.js"></script>
-  <!-- Vitality Theme Scripts -->
-  <script src="/assets/js/vitality.js"></script>
-
-</body>
-
-</html>
+{% endif %}
+<!-- Vitality Theme Scripts -->
+<script src="/assets/js/vitality.js"></script>
