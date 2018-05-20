@@ -278,7 +278,9 @@
     </div>
     <div class="row copyright">
       <div class="col-lg-12">
-        <p class="small">&copy; 2017 rg45.com</p>
+        <p class="small">&copy; <span id="copyright">
+              <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+          </span> rg45.com</p>
       </div>
     </div>
   </div>
