@@ -188,3 +188,16 @@ plugin_js: true
         </div>
     </section>
     <a href="mailto:ryan@rg45.com" class="btn btn-block btn-full-width">Email me now!</a>
+
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>

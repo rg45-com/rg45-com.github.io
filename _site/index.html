@@ -32,6 +32,8 @@
     
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/bebfbcd068.js"></script>
+
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     
     
 
@@ -262,6 +264,19 @@
         </div>
     </section>
     <a href="mailto:ryan@rg45.com" class="btn btn-block btn-full-width">Email me now!</a>
+
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
   
 <footer class="footer" style="background-image: url('/assets/img/las-vegas-skyline-short.jpg')">
   <div class="container text-center">
