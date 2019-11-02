@@ -32,3 +32,4 @@ creative
 #Jekyll specific
 .sass-cache
 .jekyll-metadata
+.jekyll-cache
